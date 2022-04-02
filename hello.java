@@ -18,6 +18,10 @@ class first
         // charAt() : variable_name.charAt(indexno.) {here index no. starting with 0}
         System.out.println(fname.charAt(0));
 
+        //replace 
+        String rname = fname.replace('r','R');
+        System.out.println(rname);
+
 
 
          

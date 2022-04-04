@@ -19,7 +19,7 @@ public class randomno {
         }
         
         else{
-            System.out.println("Your Number is so small0.");
+            System.out.println("Your Number is so small.");
         }
     }while(usernum >= 0);
 

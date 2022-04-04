@@ -1,4 +1,4 @@
-import javax.print.DocFlavor.STRING;
+
 
 class first 
 {
@@ -22,9 +22,28 @@ class first
         String rname = fname.replace('r','R');
         System.out.println(rname);
 
+        // in java string is an imutable (change nhi ho sakti h) ⭐⭐
+
+        // substring { you give index no. to find the string on that no.}
+
+        String name = fname + lname;
+
+        System.out.println(name.substring(2,7));
 
 
-         
+        // constants ⭐⭐
+        int age = 30;
+        age = 31;
+        age = 32;
+        System.out.println(age);
 
+        // if you fix a value in variable
+        final float pi = 3.14f;
+        System.out.println(pi);
+        
+
+
+        
+        
     }
 } 

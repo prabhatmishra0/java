@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class waptocompare {
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
+        try(Scanner sc = new Scanner(System.in)){
         System.out.println("Pls enter three number :");
         int a = sc.nextInt();
         int b = sc.nextInt();
@@ -17,6 +17,7 @@ public class waptocompare {
         }else {
             System.out.println("C is greater no.");
         }
+    }
     }
     
 }

@@ -1,4 +1,4 @@
-
+package basicjava;
 
 class first 
 {

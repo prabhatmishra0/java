@@ -1,3 +1,4 @@
+package basicjava;
 import java.util.Arrays;
 class arr {
     public static void main(String[] args){

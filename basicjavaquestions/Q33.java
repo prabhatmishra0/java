@@ -7,9 +7,10 @@ import java.util.Scanner;
 public class Q33 {
         public static void main(String[] args){
             System.out.println("Enter any number : ");
-            Scanner sc = new Scanner(System.in);
-            long input = sc.nextLong();
-            System.out.println("Sum of your input : " + suminput(input));
+            try (Scanner sc = new Scanner(System.in)) {
+                long input = sc.nextLong();
+                System.out.println("Sum of your input : " + suminput(input));
+            }
         }
 
         public static long suminput(long x){

@@ -1,5 +1,6 @@
 package basicjava;
 
+
 public class operaters {
     public static void main(String[] args){
         // Opreaters ⭐

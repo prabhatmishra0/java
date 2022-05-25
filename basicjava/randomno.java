@@ -1,4 +1,5 @@
 package basicjava;
+
 import java.util.Scanner;
 public class randomno {
     public static void main(String[]  args){

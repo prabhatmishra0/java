@@ -1,5 +1,4 @@
 package basicjava;
-
 public class break_continue {
     public static void main(String[] args){
         // wap to write even using while and break and continue statement 
